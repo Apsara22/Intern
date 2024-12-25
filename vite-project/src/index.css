@@ -17,5 +17,18 @@ ul{
     list-style: none;
 }
 .hero{
-    background-image: url("./assets/images/HomeBack1-sioQ5hsM.jpg");
+    background-image: url("./assets/images/img1.jpg");
+} 
+.hero1{
+    background-image: url("./assets/images/img4.png");
+} 
+.pop{
+    left: 28%;
+    top: 60%;
+    width: 155px;
+}
+.fit p{
+    padding: 0.4 rem 0;
+    font-size: 1.1rem;
+    letter-spacing: 0.3 rem;
 }

@@ -14,7 +14,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   return (
     <nav className="w-full top-[10px] left-0">
-      <div className="md:flex bg-[#7d7676] relative py-6 md:py-4 md:px-10 px-7 items-center justify-between ">
+      <div className="md:flex bg-[#403434] relative py-6 md:py-4 md:px-10 px-7 items-center justify-between ">
         <div className="mr-1 pt-2 flex items-center cursor-pointer pr-12">
           <a>
             <img src={logo} className="w-[30%] " />
@@ -27,7 +27,7 @@ export default function Header() {
           >
             {open ? <IoMdClose /> : <IoMenu/>}
           </div>
-          <ul className={`md:flex items-center cursor-pointer gap-10  ${open ? 'top-20 opacity-100 ':'top-[-490px]'}`}>
+          <ul className={`md:flex items-center cursor-pointer gap-10  `}>
             {Links.map((link) => (
               <li className="text-white hover:text-red-500 font-[1rem] md:my-0 my-7">
                 <a href={link.link}>{link.name}</a>
