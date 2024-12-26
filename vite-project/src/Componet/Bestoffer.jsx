@@ -24,44 +24,44 @@ export default function Bestoffer() {
           </div>
         </div>
         {/* ****** */}
-        <div className="row gx-0 flex pl-5">
+        <div className="row gx-0 flex pl-5 h-[350px]">
             <div className="col-md-3">
                 <div className="bestoffer_col1">
-                    <IoIosTrendingUp/>
+                    <IoIosTrendingUp className="text-6xl"/>
                     <h4>Strength Training</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat architecto earum quia?</p>
                     <button>Learn More
-                        <FaArrowRight/>
+                        <FaArrowRight className="ps-2"/>
                     </button>
                 </div>
             </div>
             <div className="col-md-3">
                 <div className="bestoffer_col1">
-                    <GrYoga/>
+                    <GrYoga className="text-6xl"/>
                     <h4>Basic Yoga</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatibus architecto quis?</p>
                     <button>Learn More
-                    <FaArrowRight/>
+                    <FaArrowRight className="ps-2"/>
                     </button>
                 </div>
             </div>
             <div className="col-md-3">
                 <div className="bestoffer_col1">
-                    <IoBodyOutline/>
+                    <IoBodyOutline className="text-6xl pb-3"/>
                     <h4>Body Building</h4>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aperiam ex libero!</p>
                     <button>Learn More
-                    <FaArrowRight/>
+                    <FaArrowRight className="ps-2"/>
                     </button>
                 </div>
             </div>
             <div className="col-md-3">
                 <div className="bestoffer_col1">
-                    <GrRun/>
+                    <GrRun className="text-6xl pb-3"/>
                     <h4>Weight Losing</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex tempore enim natus.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis inventore reprehenderit sint!</p>
                     <button>Learn More
-                    <FaArrowRight/>
+                    <FaArrowRight className="ps-2"/>
                     </button>
                 </div>
             </div>
