@@ -6,7 +6,7 @@ import icon1 from "../assets/images/icon.png";
 export default function Fitness() {
   return (
     <>
-      <div className="bg-[#484646] text-white p-[1rem 0] flex items-center h-40">
+      <div className="bg-[#737474] text-white p-[1rem 0] flex items-center h-40">
         <div>
           <div className="flex items-center pt-10">
             <div className="pl-16">

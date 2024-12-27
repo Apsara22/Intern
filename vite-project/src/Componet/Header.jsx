@@ -14,7 +14,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   return (
     <nav className="w-full top-[10px] left-0">
-      <div className="md:flex bg-[#403434] relative py-6 md:py-4 md:px-10 px-7 items-center justify-between ">
+      <div className="md:flex bg-[#25252c] relative py-6 md:py-4 md:px-10 px-7 items-center justify-between ">
         <div className="mr-1 pt-2 flex items-center cursor-pointer pr-12">
           <a>
             <img src={logo} className="w-[30%] " />
