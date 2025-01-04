@@ -8,7 +8,7 @@ export default function Fitness() {
     <>
       <div className="bg-[#737474] text-white p-[1rem 0] flex items-center h-40">
         <div>
-          <div className="flex items-center pt-10">
+          <div className=" items-center pt-10 grid lg:grid-cols-2 sm:grid-cols-1">
             <div className="pl-16">
               <h1 className="font-bold text-3xl">950K +</h1>
               <p className="tracking-wide font-medium pt-2">
@@ -16,7 +16,7 @@ export default function Fitness() {
               </p>
             </div>
             <div>
-              <div className=" flex pl-[450px] space-x-8 ">
+              <div className=" flex pl-20 space-x-8 ">
                 <img src={img1} alt="" className="px-3 rounded-xl " />
                 <img src={img2} alt="" className="px-3 rounded-xl " />
                 <img src={img3} alt="" className="px-3 rounded-xl " />
@@ -27,21 +27,21 @@ export default function Fitness() {
       </div>
       {/* ******************************************************* */}
       <div className="bg-[#737171] text-white p-[1rem 0] flex items-center  relative h-[500px]">
-        <div>
-          <div className="flex items-center pt-10 ">
+        
+          <div className=" items-center pt-10 grid md:grid-cols-2 sm:grid-cols-1 gap-14 sm:space-y-10">
             <div className="pl-16">
               <img
                 src={img4}
                 alt=""
-                className="rounded-xl w-[750px] h-[350px]"
+                className="rounded-xl w-[650px] h-[350px]"
               />
-              <div className="flex gap-6 items-end bg-white text-black p-[0.5rem 0.8rem]   rounded-xl absolute pop ">
+              <div className="flex gap-6 items-end bg-white text-black top-[50%] left-[38%] py-4  rounded-xl absolute pop  ">
                 <img src={icon1} alt="" className="h-9" />
-                <h6 className="text-small">Professional Trainer</h6>
+                <h6 className="text-small text-left">Professional Trainer</h6>
               </div>
             </div>
             <div>
-              <div className=" pl-44 font-bold pb-14 p-[1rem 4rem] ">
+              <div className="  font-bold pb-14 p-[1rem 4rem] ">
                 <h1 className="text-4xl font-semibold">Get Ready To Reach Your Goals</h1>
                 <div className="pt-3 pb-4 fit ">
                   <p>
@@ -61,7 +61,7 @@ export default function Fitness() {
               </div>
             </div>
           </div>
-        </div>
+        
       </div>
     </>
   );

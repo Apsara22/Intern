@@ -27,9 +27,9 @@ export default function Header() {
           >
             {open ? <IoMdClose /> : <IoMenu/>}
           </div>
-          <ul className={`md:flex items-center cursor-pointer gap-10  `}>
+          <ul className={`md:flex items-center cursor-pointer gap-10 sm `}>
             {Links.map((link) => (
-              <li className="text-white hover:text-red-500 font-[1rem] md:my-0 my-7">
+              <li className="text-white hover:text-red-500 font-[1rem] md:my-0 my-7 ">
                 <a href={link.link}>{link.name}</a>
               </li>
             ))}

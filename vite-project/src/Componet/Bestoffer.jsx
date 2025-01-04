@@ -7,13 +7,13 @@ export default function Bestoffer() {
   return (
     <>
       <div className="bg-[#443b3b] text-white">
-        <div>
-          <div className="flex pt-16 items-center ">
-            <div className=" pl-5 pe-md-5 me-md-5">
+        
+          <div className=" pt-16 items-center grid md:grid-cols-2 sm:grid-cols-1 gap-12 md:p-6">
+            <div className=" pl-16 pe-md-5 me-md-5">
               <h1 className="text-4xl font-semibold">The Best Program We offers For You</h1>
             </div>
-            <div className="pl-64">
-              <p>
+            <div className="">
+              <p className="pr-8">
                 
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
                 quae et, architecto magni ad qui ratione assumenda fuga dolores
@@ -22,7 +22,7 @@ export default function Bestoffer() {
               </p>
             </div>
           </div>
-        </div>
+        
         {/* ****** */}
         <div className="row gx-0 flex pl-5 h-[350px]">
             <div className="col-md-3">

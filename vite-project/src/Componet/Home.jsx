@@ -5,7 +5,7 @@ export default function Home() {
 
 <div className="hero h-[800px] bg-center bg-cover bg-no-repeat  items-center">
             <div className="text-white pt-[9rem] pl-12 ">
-              <h1 className="text-6xl font-extrabold space-x-2 space-y-4">
+              <h1 className="text-6xl font-extrabold space-x-2 space-y-4 ">
                 GET <span className="text-red-600">HEALTHY</span>
                 <br /> BODY WITH <span className="text-red-600">
                   PERFECT
@@ -16,7 +16,7 @@ export default function Home() {
                 We are always there to help you make a healthy body and min
                 through power of fitness
               </p>
-              <div className="flex">
+              <div className="flex herobtn">
                 <button className="py-3 px-2 bg-red-600 rounded font-bold hover:px-4 hover:py-3 cursor-pointer">
                   Get Started
                 </button>
